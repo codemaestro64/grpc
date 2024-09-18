@@ -2,8 +2,8 @@ syntax = "proto3";
 
 package ether_service;
 
-servie EtherService {
-    rpc Greet(GreetRequest) returns GreetResponse;
+service EtherService {
+    rpc Greet(GreetRequest) returns (GreetResponse);
 }
 
 message GreetRequest {
